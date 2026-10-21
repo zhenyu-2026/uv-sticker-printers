@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zhenyu-2026.github.io/uv-sticker-printers/sitemap.xml
