@@ -1,7 +1,19 @@
 (function () {
   const cfg = window.SITE_CONFIG || {};
   const wa = (cfg.whatsappE164 || "0000000000").replace(/\D/g, "");
-  const email = cfg.email || "hello@example.com";
+
+  function decodeContactEmail(config) {
+    function fromCodes(codes) {
+      if (!codes || !codes.length) return "";
+      return String.fromCharCode.apply(null, codes);
+    }
+    const user = fromCodes(config.mailUserCodes);
+    const host = fromCodes(config.mailHostCodes);
+    if (!user || !host) return "";
+    return user + "@" + host;
+  }
+
+  const email = decodeContactEmail(cfg);
 
   function sanitizeSource(raw) {
     if (!raw || typeof raw !== "string") return "";
@@ -59,14 +71,16 @@
       "Hello,\n\nI'd like a quote on UV / UV-DTF sticker printer equipment.\n\n" +
       viaLabel +
       "\n";
-    mail.href =
-      "mailto:" +
-      email +
-      "?subject=" +
-      encodeURIComponent(subject) +
-      "&body=" +
-      encodeURIComponent(body);
-    mail.textContent = email;
+    if (email) {
+      mail.href =
+        "mailto:" +
+        email +
+        "?subject=" +
+        encodeURIComponent(subject) +
+        "&body=" +
+        encodeURIComponent(body);
+    }
+    mail.textContent = "Email us";
   }
 
   const sourceNote = document.getElementById("sourceNote");
