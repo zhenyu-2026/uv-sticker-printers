@@ -62,6 +62,7 @@
   }
   </script>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="preload" as="image" href="assets/banner-6head-uv-dtf.webp" type="image/webp" />
 </head>
 <body>
   <header class="nav">
@@ -96,14 +97,19 @@
           <p class="form-note" id="sourceNote">Lead tag on WhatsApp &amp; email: via:website</p>
         </div>
         <div class="hero-card">
-          <img
-            class="hero-img"
-            src="assets/banner-6head-uv-dtf.jpg"
-            alt="Six-head UV-DTF sticker printer banner"
-            width="800"
-            height="800"
-            loading="eager"
-          />
+          <picture>
+            <source srcset="assets/banner-6head-uv-dtf.webp" type="image/webp" />
+            <img
+              class="hero-img"
+              src="assets/banner-6head-uv-dtf.jpg"
+              alt="Six-head UV-DTF sticker printer banner"
+              width="1400"
+              height="583"
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </picture>
         </div>
       </div>
     </section>
@@ -140,38 +146,57 @@
           <a class="btn btn-primary" id="modelsWhatsApp" href="https://wa.me/0000000000" target="_blank" rel="noopener">Request printer quote</a>
         </div>
         <div class="printer-grid">
-          <img
-            class="printer-banner"
-            src="assets/banner-6head-uv-dtf.jpg"
-            alt="Six-head UV DTF printer banner"
-            width="1600"
-            height="666"
-            loading="lazy"
-          />
+          <picture>
+            <source srcset="assets/banner-6head-uv-dtf.webp" type="image/webp" />
+            <img
+              class="printer-banner"
+              src="assets/banner-6head-uv-dtf.jpg"
+              alt="Six-head UV DTF printer banner"
+              width="1400"
+              height="583"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
           <div class="grid-3 printer-cards">
             <article class="card">
-              <img src="assets/uv-dtf-printer-industrial.jpg" alt="Industrial UV-DTF printer" loading="lazy" />
+              <picture>
+                <source srcset="assets/uv-dtf-printer-industrial.webp" type="image/webp" />
+                <img src="assets/uv-dtf-printer-industrial.jpg" alt="Industrial UV-DTF printer" width="800" height="800" loading="lazy" decoding="async" />
+              </picture>
               <h3>Roll-to-roll UV-DTF</h3>
               <p>High-throughput lines for label houses — head count and width matched to your target output (contact to confirm).</p>
             </article>
             <article class="card">
-              <img src="assets/uv-dtf-printer-laminator-system.jpg" alt="UV-DTF printer with laminating unit" loading="lazy" />
+              <picture>
+                <source srcset="assets/uv-dtf-printer-laminator-system.webp" type="image/webp" />
+                <img src="assets/uv-dtf-printer-laminator-system.jpg" alt="UV-DTF printer with laminating unit" width="800" height="800" loading="lazy" decoding="async" />
+              </picture>
               <h3>Print + laminate workflows</h3>
               <p>Integrated lamination and rewind options so production needs fewer hand steps between print and finish.</p>
             </article>
             <article class="card">
-              <img src="assets/banner-60e4-uv-dtf-all-in-one.jpg" alt="All-in-one UV DTF printer" loading="lazy" />
+              <picture>
+                <source srcset="assets/banner-60e4-uv-dtf-all-in-one.webp" type="image/webp" />
+                <img src="assets/banner-60e4-uv-dtf-all-in-one.jpg" alt="All-in-one UV DTF printer" width="1200" height="500" loading="lazy" decoding="async" />
+              </picture>
               <h3>All-in-one models</h3>
               <p>Compact shops can start with integrated print / foil / waste-remove / laminate systems — demo video on request.</p>
             </article>
           </div>
         </div>
         <div class="factory-row">
-          <img src="assets/factory-printer-assembly-floor.jpg" alt="Factory floor with rows of assembled UV printers" loading="lazy" />
+          <picture class="factory-media">
+            <source srcset="assets/factory-printer-assembly-floor.webp" type="image/webp" />
+            <img src="assets/factory-printer-assembly-floor.jpg" alt="Factory floor with rows of assembled UV printers" width="1000" height="562" loading="lazy" decoding="async" />
+          </picture>
           <div class="card">
             <h3>Manufacturing scale</h3>
             <p>Our facility assembles and tests UV printing equipment before export. The same platforms power high-volume crystal-label production at many customer sites — a proof point for machine reliability, not a sticker storefront.</p>
-            <img class="nested-img" src="assets/factory-production-process.jpg" alt="Production process from design to after-sales service" loading="lazy" />
+            <picture>
+              <source srcset="assets/factory-production-process.webp" type="image/webp" />
+              <img class="nested-img" src="assets/factory-production-process.jpg" alt="Production process from design to after-sales service" width="1000" height="789" loading="lazy" decoding="async" />
+            </picture>
           </div>
         </div>
       </div>
