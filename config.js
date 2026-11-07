@@ -9,5 +9,5 @@ window.SITE_CONFIG = {
   // Default lead source when URL has no ?src= or utm_source
   defaultSource: "website",
   // Known channel examples: website, twitter, facebook, threads
-  // Share links like: https://zhenyu-2026.github.io/uv-sticker-printers/?src=twitter
+  // Share links like: https://www.domeseal.eu.cc/?src=twitter
 };
