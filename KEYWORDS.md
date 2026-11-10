@@ -3,7 +3,7 @@
 **Site:** https://www.domeseal.eu.cc/  
 **Repo:** zhenyu-2026/uv-sticker-printers  
 **Audience:** English B2B overseas buyers (importers, distributors, label shops)  
-**Last reviewed:** 2026-11-09 (Asia/Shanghai)
+**Last reviewed:** 2026-11-10 (Asia/Shanghai)
 
 本文件是本站 Google 自然搜索关键词管理表。页面改文案时优先对照此表；每日 SEO 例程应检查页面是否仍对准主词，而不是天天大改版。
 
@@ -113,3 +113,4 @@ Goal: help generative / answer engines cite clear, factual sentences about **who
 - 大改版前先更新本表，再改 `index.html`。  
 - Stickers product demand → send users to https://stickers.domeseal.eu.cc/ (footer link only).
 - 2026-11-09: targeted roll-to-roll UV DTF printer — FAQ answer → `#models-r2r` + tracked stickers cross-links (`?src=printer-about|printer-footer&via=seo-2026-11-09`).
+- 2026-11-10: targeted all-in-one UV DTF printer — FAQ answer → `#models-aio` + tracked stickers cross-links (`?src=printer-about|printer-footer&via=seo-2026-11-10`).
