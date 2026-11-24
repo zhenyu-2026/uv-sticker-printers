@@ -3,7 +3,7 @@
 **Site:** https://www.domeseal.eu.cc/  
 **Repo:** zhenyu-2026/uv-sticker-printers  
 **Audience:** English B2B overseas buyers (importers, distributors, label shops)  
-**Last reviewed:** 2026-11-20 (Asia/Shanghai)
+**Last reviewed:** 2026-11-24 (Asia/Shanghai)
 
 本文件是本站 Google 自然搜索关键词管理表。页面改文案时优先对照此表；每日 SEO 例程应检查页面是否仍对准主词，而不是天天大改版。
 
@@ -118,3 +118,4 @@ Goal: help generative / answer engines cite clear, factual sentences about **who
 - 2026-11-16: targeted UV DTF sticker printer — FAQ definition → `#models` + tracked stickers cross-links (`?src=printer-about|printer-footer&via=seo-2026-11-16`).
 - 2026-11-18: targeted UV sticker printer manufacturer China — FAQ answer → `#about` + tracked stickers cross-links (`?src=printer-about|printer-footer&via=seo-2026-11-18`).
 - 2026-11-20: targeted print laminate UV DTF system — FAQ answer → `#models-laminate` + tracked stickers cross-links (`?src=printer-about|printer-footer&via=seo-2026-11-20`).
+- 2026-11-24: targeted UV DTF printer spare parts — FAQ answer → `#spare-parts` + tracked stickers cross-links (`?src=printer-about|printer-footer&via=seo-2026-11-24`).
