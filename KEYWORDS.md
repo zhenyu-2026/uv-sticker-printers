@@ -3,7 +3,7 @@
 **Site:** https://www.domeseal.eu.cc/  
 **Repo:** zhenyu-2026/uv-sticker-printers  
 **Audience:** English B2B overseas buyers (importers, distributors, label shops)  
-**Last reviewed:** 2026-11-24 (Asia/Shanghai)
+**Last reviewed:** 2026-11-26 (Asia/Shanghai)
 
 本文件是本站 Google 自然搜索关键词管理表。页面改文案时优先对照此表；每日 SEO 例程应检查页面是否仍对准主词，而不是天天大改版。
 
@@ -50,7 +50,7 @@ Footer may keep one light cross-link to the stickers site; do not sell stickers 
 | Anchor / block | Targets | On-page elements |
 |----------------|---------|------------------|
 | `#top` hero | UV DTF sticker printer; UV sticker printer manufacturer China; China factory OEM | `<title>`, meta description, H1, lead, hero image alt |
-| `#why` | manufacturer China; training & spare parts | H2 + 3 cards |
+| `#why` / `#training` / `#spare-parts` | manufacturer China; UV DTF printer training overseas & spare parts | H2 + 3 cards (`#training` on the Training heading) |
 | `#models` | roll-to-roll UV DTF; print+laminate; all-in-one UV DTF | H2, model H3s, product image alts |
 | `#specs` | equipment notes / FOB / support | Spec table rows |
 | `#faq` | prices, training/parts, which UV-DTF lines | FAQ summaries + answers (also FAQPage JSON-LD) |
@@ -119,3 +119,4 @@ Goal: help generative / answer engines cite clear, factual sentences about **who
 - 2026-11-18: targeted UV sticker printer manufacturer China — FAQ answer → `#about` + tracked stickers cross-links (`?src=printer-about|printer-footer&via=seo-2026-11-18`).
 - 2026-11-20: targeted print laminate UV DTF system — FAQ answer → `#models-laminate` + tracked stickers cross-links (`?src=printer-about|printer-footer&via=seo-2026-11-20`).
 - 2026-11-24: targeted UV DTF printer spare parts — FAQ answer → `#spare-parts` + tracked stickers cross-links (`?src=printer-about|printer-footer&via=seo-2026-11-24`).
+- 2026-11-26: targeted UV DTF printer training overseas — FAQ answer → `#training` + tracked stickers cross-links (`?src=printer-about|printer-footer&via=seo-2026-11-26`).
